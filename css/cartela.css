@@ -1,0 +1,138 @@
+body{
+  background-color: #202020;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+
+main{
+  background-color: #292929;
+  border-radius: 8px;
+}
+
+h2{
+  color: white;
+}
+
+ul, p{
+  color: white;
+  font-weight: 600;
+}
+
+.lista-premios{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+  grid-gap: 20px 20px;
+}
+
+.lista-premios img{
+  width: 10%;
+}
+
+.Stickers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+  grid-gap: 27px 27px;
+}
+.StickersSimple {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #b99d48;
+}
+.StickerSimple__number {
+  font-weight: 800;
+  color: #202020;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.StickersSimple_check {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #fdc300;
+
+}
+
+.StickersPrize_check{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #fdc300;
+  display: flex;
+  align-items: center;
+}
+
+.StickersPrize{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #b99d48;
+  display: flex;
+  align-items: center;
+}
+
+.StickersPrize__Seal{
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: #202020;
+  overflow: hidden;
+}
+
+.StickersPrize__Seal img{
+  margin-top: 2px;
+  margin-left: -2px;
+}
+
+div .backg{
+  width: 99,6%;
+  margin-left: 0%;
+  max-width: 100%;
+  padding-left: 500px;
+  padding-right: 500px;
+  box-sizing: border-box;
+  
+}
+
+div .backg2{
+  display: block;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div .backg3{
+  width: 100%;
+  margin: 10px auto;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out 0s;
+  padding-left: -8px;
+  padding-right: -8px;
+}
+
+
+.stickers .section{
+  padding: 30px 0 40px;
+}
+
+.section{
+  width: 100%;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+

@@ -1,18 +1,18 @@
 h3 {
   font-size: 19px;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #f9c115;
+  color: #fdc300;
 }
 
 .Users {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(170px, 1fr));
   grid-gap: 20px 30px;
 }
 
 body{
-  background-color: rgb(32, 32, 32);
+  background-color: #202020;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
@@ -20,5 +20,13 @@ a {
 
 img {
   width: 170px;
-  border-radius: 3px;
+  border-radius: 100%;
+}
+
+.banner {
+  border-radius: 8px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
